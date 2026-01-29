@@ -1,0 +1,39 @@
+[--açao]
+create a script to create a tabel in postgresql
+[--contexto]
+the first table is a table to save a pokemon tcg cards
+the second table is a table to save collections set
+
+connect to tables with foreign key
+[--informaçoes]
+first table: tbl_cards
+id
+hp
+name
+type
+stage
+info
+attack
+damage
+weak
+resis
+retreat
+cardNumberInCollection
+
+second table: tbl_collections
+id
+collections set name
+release Date
+totalCardsInCollection
+
+otimize the varchar fields to perfect size
+
+create another tables and link to tbl_cards - create a table to separate type and create a table to separate stage
+
+Crie a initial seed to tables tbl_cards and tbl_collections. Considere os inserts que já foram fornecidos para as tabelas tbl_types e tbl_stages
+
+generate 20 inserts records in tbl_cards
+
+generate more 30 records in tbl_cards
+
+gere todas as informações da tb_cards substituindo pelos nomes das chaves estrangeiras, salve isso como uma view para o postgre

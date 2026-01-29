@@ -1,0 +1,20 @@
+-- Initial seed data for tbl_collections
+INSERT INTO tbl_collections (collections_set_name, release_date, total_cards_in_collection) VALUES
+    ('Base Set', '1999-01-09', 102),
+    ('Jungle', '1999-06-16', 64),
+    ('Fossil', '1999-10-10', 62),
+    ('Base Set 2', '2000-02-24', 130),
+    ('Team Rocket', '2000-04-24', 82),
+    ('Gym Heroes', '2000-08-31', 132),
+    ('Gym Challenge', '2000-10-16', 132),
+    ('Neo Genesis', '2000-12-16', 111),
+    ('Neo Discovery', '2001-06-15', 75),
+    ('Neo Revelation', '2001-09-21', 64),
+    ('Neo Destiny', '2001-12-03', 113),
+    ('Legendary Collection', '2002-03-25', 110),
+    ('Expedition Base Set', '2002-08-22', 165),
+    ('Aquapolis', '2003-01-16', 147),
+    ('Skyridge', '2003-05-12', 144),
+    ('Scarlet & Violet Base Set', '2023-04-14', 102),
+    ('Scarlet & Violet 151', '2023-09-22', 102),
+    ('Paldean Fates', '2024-11-22', 91);
